@@ -1,0 +1,1039 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif
+}
+/*
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: #fff;
+}
+*/
+.navbar {
+    background: #000 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand,
+.nav-item {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.img_header_nav {
+    width: 100px;
+    height: 52px;
+}
+
+.instagram_links,
+.watsapp_link {
+    font-size: 23px;
+    margin-left: 2px;
+    margin-top: -3px;
+}
+
+.watsapp_link:hover {
+    color: #64ff64 !important;
+}
+
+.inst:hover {
+    color: orange;
+}
+
+.mail_icon_footer:hover {
+    color: red;
+}
+
+.whatsapp_icon_footer:hover {
+    color: #64ff64;
+}
+
+.navbar-collapse {
+    line-height: 20px !important;
+}
+
+.first_section {
+    background-image: url(../images/firstSection.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+.under_block_general {
+    text-align: center;
+}
+
+.desktop-title {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 74px;
+    margin-top: 17%;
+    text-align: center;
+}
+
+.yellow_btn {
+    height: 60px;
+    background-color: #feff09;
+    border: 1px solid #feff09;
+    border-radius: 15px;
+    box-shadow: inset 3px 0.1px 7px rgba(241, 205, 59, 0.35);
+    font-size: 17px;
+    padding: 0 20px;
+}
+
+.yellow_btn:hover {
+    box-shadow: 0 0 40px #c6a521, inset 3px 0.1px 7px rgba(241, 205, 59, 0.35) !important;
+}
+
+.popup {
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif
+}
+
+.adversting {
+    width: 100%;
+    height: 588px;
+}
+
+.block_title {
+    font-size: 35px;
+    line-height: 36px;
+    color: #323232;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 0;
+    font-weight: 700;
+}
+
+.descr_image {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+
+.image_our_adversting {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.our_work {
+    min-height: 640px;
+    margin-bottom: 75px;
+    width: 100%;
+
+}
+
+.name_our_work {
+    font-weight: 700;
+}
+
+.title_our_work {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    color: #000;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.send_photo_whatsapp {
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.get_example_now {
+    text-transform: uppercase;
+    height: 85px;
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #000;
+}
+
+.description_advantages {
+    margin-top: 100px;
+}
+
+.p_text_why {
+    padding-top: 200px;
+}
+
+.good_work_gradient {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+}
+
+.time_to_end_sale {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.get_my_sale {
+    text-transform: uppercase;
+    height: 85px;
+    font-size: 30px;
+}
+
+.call_me_gradient {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+}
+
+.our_works {
+    width: 100%;
+    border: 1px solid #c1c1c1;
+}
+
+.title_with_gradient {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.20));
+    height: 100vh;
+}
+
+.free_gets {
+    margin-top: 50px;
+}
+
+.time_to_newYear_gradient {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70));
+}
+
+.for_variants_work {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.call_now_section_gradient {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+}
+
+.free_specialist {
+    color: #feff09;
+    text-align: center;
+    font-size: 36px;
+}
+
+.image_our_work-1 {
+    background-image: url(https://static.tildacdn.com/tild6435-3764-4630-b434-643065346262/kALJ1QTO.jpg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image_our_work-2 {
+    background-image: url(https://static.tildacdn.com/tild3865-3136-4339-a439-643433383963/192883723.JPG);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image_our_work-3 {
+    background-image: url(https://static.tildacdn.com/tild6236-3461-4836-a536-666161366230/192883582.JPG);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image_our_work-4 {
+    background-image: url(https://static.tildacdn.com/tild3465-3239-4239-a336-356536633662/312567315.JPG);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image_our_work-5 {
+    background-image: url(https://static.tildacdn.com/tild6564-3463-4763-b030-613764366334/Outdoor-Icicle-Chris.jpg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image_our_work-6 {
+    background-image: url(https://static.tildacdn.com/tild3666-6137-4137-b133-663135323762/16770384.jpg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.call_me_now {
+    height: auto;
+    background-image: url(../images/bg_callbacks.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.call_now_p {
+    font-size: 34px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.call_now_phone {
+    font-size: 44px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.call_or_delivery {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.text_call_me_block {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.input_name {
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+    height: 60px;
+}
+
+.call_me_btn {
+    margin-top: 50px;
+    width: 100%;
+    height: 55px;
+    border-radius: 25px;
+    background-color: #feff09;
+    border: none;
+    font-weight: 700;
+}
+
+.btn_client_us {
+    background: #ffe100;
+    border: none;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sale_titles {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.about_sale {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.facts_about_us {
+    background: #000;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.title_facts_abut_us {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.animation_count {
+    color: #fff;
+    font-size: 20px;
+}
+
+.number_block_animate {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text_animation_block {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.description_total_res {
+    height: 1px;
+    opacity: 0.20;
+}
+
+.sale_block {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/sale.jpg);
+    display: none;
+}
+
+.text_sale_title {
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.input_sale_block {
+    float: right;
+    border: 1px solid black;
+}
+
+.title_input_sale {
+    background-color: #feff09;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px;
+    color: #000;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.input_labels {
+    background-color: rgb(251, 248, 248);
+    border-color: rgb(232, 217, 217);
+    color: rgb(62, 38, 38);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 15px;
+}
+
+.label_sale {
+    font-size: 20px;
+}
+
+.name_sale {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 6px;
+    border: 0.5px solid #dedede;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.send_sale {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #feff09;
+    border: none;
+    height: 40px;
+    color: #000;
+    font-weight: 700;
+}
+
+.line {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.why_good_work {
+    background: #000;
+    height: auto;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://static.tildacdn.com/tild3030-3438-4430-a539-613733393433/backgr.png);
+}
+
+.text_why {
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+
+.name_why {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.time_to_newYear {
+    margin-top: 100px;
+    background-image: url(../images/moscow.png);
+    height: auto;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.title_time_NY {
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+}
+
+.descr_why {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 260px;
+
+}
+
+.why_img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.make_project_different_difficult {
+    height: auto;
+}
+
+.make_image_block {
+    border: 1px solid #dedede;
+    height: 240px;
+}
+
+.first_img {
+    background-image: url(https://static.tildacdn.com/tild3739-6230-4061-b731-663463383166/Christmas-Lights.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second_img {
+    background-image: url(https://static.tildacdn.com/tild3737-3665-4861-a234-386230313338/St-Albans-Christmas-.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third_img {
+    background-image: url(https://static.tildacdn.com/tild3533-6633-4830-b163-376365373134/518a391a53e51e945432.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fore_img {
+    background-image: url(https://static.tildacdn.com/tild3838-3466-4039-a638-626135353937/outdoor-christmas-de.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.five_image {
+    background-image: url(https://static.tildacdn.com/tild3766-3736-4537-b461-313765393139/IMG_1216-683x1024.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.six_image {
+    background-image: url(https://static.tildacdn.com/tild3832-3930-4437-b830-633766613138/restaurant-kappeli-w.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.seven_image {
+    background-image: url(https://static.tildacdn.com/tild6562-3963-4861-b633-323064623031/christmas-lights-cro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.eight_image {
+    background-image: url(https://static.tildacdn.com/tild3666-6137-4137-b133-663135323762/16770384.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.link_comments {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.make_project_p {
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.image_make {
+    height: 240px;
+    width: 100%;
+}
+
+.title_make_image {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mf-border {
+    border-top: none !important;
+}
+
+.user_like_us {
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.block_title_client {
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+}
+
+.time_count_NY {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.block_callbacks_user {
+    height: auto;
+}
+
+.title_client_p {
+    font-weight: 700;
+}
+
+.image_user_one {
+    display: table-cell;
+    background-image: url(https://static.tildacdn.com/tild6162-6464-4261-b366-326236336334/people_1.png);
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+.image_user_two {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    background-image: url(https://static.tildacdn.com/tild3834-3362-4632-b837-396337363963/people_7.png);
+}
+
+.image_user_three {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    background-image: url(https://static.tildacdn.com/tild3032-3030-4163-b866-363965383339/people_6.png);
+}
+
+.image_user_three {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    background-image: url(https://static.tildacdn.com/tild3032-3030-4163-b866-363965383339/people_6.png);
+}
+
+.image_user_fore {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    background-image: url(https://static.tildacdn.com/tild6531-3564-4133-b435-383031613737/people_4.png);
+}
+
+.text_comment_user {
+    margin-top: 8px;
+    float: right;
+}
+
+.call_right_now_section {
+    margin-top: 100px;
+    height: auto;
+    background-image: url(https://static.tildacdn.com/tild6139-6537-4432-a266-346339383164/christmas-lights-17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.title_call_right_now {
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.calls_now {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.phone_call_right_now {
+    font-size: 55px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.or_make_order_p {
+    font-size: 28px;
+}
+
+.call_right_now_input_block {
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.right_now_inp {
+    width: 100%;
+    padding-left: 10px;
+    height: 55px;
+}
+
+.send_comments {
+    background: #ffe100;
+    color: #000;
+    border: none;
+    font-weight: 700;
+}
+
+.call_me_right_now {
+    width: 100%;
+    padding-left: 10px;
+    height: 58px;
+    border-radius: 25px;
+    background: #feff09;
+    color: #000;
+    border: none;
+    font-weight: 700;
+}
+
+.label_right_now {
+    float: left;
+    font-size: 20px;
+}
+
+.modal-title {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}
+
+.modal_inp {
+    border: 1px solid #c9c9c9;
+}
+
+.footer {
+    height: 10vh;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #f1f1f1;
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer_icons {
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.mh-border {
+    border-bottom: none !important;
+}
+
+.countdown {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.mc-border {
+    border-radius: 15px;
+}
+
+.countdown div {
+    padding: 20px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 5px;
+}
+
+.countdown div:first-child {}
+
+.countdown span {
+    display: block;
+    font-size: 25px;
+}
+
+.countdown_NY {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.countdown_NY div {
+    padding: 20px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 5px;
+}
+
+.countdown_NY div:first-child {}
+
+.countdown_NY span {
+    display: block;
+    font-size: 25px;
+}
+
+
+@media screen and (min-width: 1918px) {
+    .desktop-title {
+        font-size: 82px;
+        line-height: 102px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .desktop-title {
+        font-size: 4vw;
+    }
+}
+
+@media screen and(max-width: 845px) {
+    .image_our_adversting {
+        height: 208px;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .title_facts_abut_us {
+        margin-top: 50px;
+        font-size: 40px;
+    }
+
+    .image_our_adversting {
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .desktop-title {
+        font-size: 42px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .image_our_adversting {
+        height: 135px;
+    }
+
+    .text_call_me_block {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .descr_image {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .sertification {
+        height: 250px;
+    }
+
+    .why {
+        padding-top: 50px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title_input_sale {
+        font-size: 14px;
+    }
+
+    .desktop-title {
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 145px;
+    }
+
+    .phone_call_right_now {
+        font-size: 45px;
+    }
+
+    .text_sale_title {
+        font-size: 14px;
+
+    }
+
+    .dekstop_title {
+        font-size: 20px;
+    }
+
+    .yellow_btn {
+        height: 75px;
+        font-size: 14px;
+    }
+
+    .title_our_work {
+        font-size: 30px;
+    }
+
+    .input_sale_block {
+        float: right;
+        /* width: 63%;*/
+        border: 1px solid black;
+    }
+
+    .call_now_phone {
+        font-size: 40px;
+    }
+}
+
+@media screen and(max-width: 445px) {
+    .image_our_adversting {
+        height: 115px;
+    }
+}
+
+@media screen and (max-width: 422px) {
+    .call_now_p {
+        font-size: 23px;
+    }
+
+    .call_now_phone {
+        font-size: 33px;
+    }
+
+    .phone_call_right_now {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .image_our_adversting {
+        height: 111px;
+    }
+
+    .desktop-title {
+        margin-top: 96px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .phone_call_right_now {
+        font-size: 32px;
+    }
+
+    .image_our_adversting {
+        height: 105px;
+    }
+
+    .desktop-title {
+        font-size: 30px;
+        line-height: 28px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 358px) {
+    .call_now_phone {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 329px) {
+    .desktop-title {
+        margin-top: 100px;
+    }
+
+    .popup {
+        margin-top: 5px !important;
+    }
+}

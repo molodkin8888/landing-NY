@@ -1,0 +1,55 @@
+@media screen and (max-width: 920px) {
+    .desktop-title {
+        line-height: 30px;
+        font-size: 26px;
+        margin-top: 82px;
+    }
+
+    .input_sale_block {
+        width: 50%;
+    }
+
+    .landscape_btn {
+        height: 78px !important;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .text_call_me_block {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .desktop-title {
+        margin-top: 78px;
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .yellow_btn {
+        height: 38px;
+        font-size: 17px;
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .under_block_general {
+        margin-top: -45px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .desktop-title {
+        margin-top: 70px;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .under_block_general {
+        margin-top: -48px;
+        text-align: center;
+    }
+}
